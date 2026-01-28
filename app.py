@@ -285,27 +285,27 @@ I don't see any startup idea in our conversation yet. Please first describe your
 st.markdown("<br>" * 3, unsafe_allow_html=True)
 
 # Footer - Fixed at bottom
-st.markdown("""
-<style>
-    .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: #0E1117;
-        color: #808495;
-        text-align: center;
-        padding: 10px 0;
-        font-size: 14px;
-        z-index: 999;
-        border-top: 1px solid #262730;
-    }
-    /* Add padding to main content to prevent overlap with fixed footer */
-    .main .block-container {
-        padding-bottom: 80px;
-    }
-</style>
-<div class="footer">
-    <p>Built with ❤️ using Streamlit, LangChain & Groq | ⚠️ AI-generated advice - Always do your own research</p>
-</div>
-""", unsafe_allow_html=True)
+# st.markdown("""
+# <style>
+#     .footer {
+#         position: fixed;
+#         left: 0;
+#         bottom: 0;
+#         width: 100%;
+#         background-color: #0E1117;
+#         color: #808495;
+#         text-align: center;
+#         padding: 10px 0;
+#         font-size: 14px;
+#         z-index: 999;
+#         border-top: 1px solid #262730;
+#     }
+#     /* Add padding to main content to prevent overlap with fixed footer */
+#     .main .block-container {
+#         padding-bottom: 80px;
+#     }
+# </style>
+# <div class="footer">
+#     <p>Built with ❤️ using Streamlit, LangChain & Groq | ⚠️ AI-generated advice - Always do your own research</p>
+# </div>
+# """, unsafe_allow_html=True)
