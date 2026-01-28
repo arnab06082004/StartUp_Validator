@@ -1,5 +1,4 @@
 import streamlit as st
-from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
 import os
@@ -16,7 +15,6 @@ st.set_page_config(
 )
 
 # Get API key from environment
-os.environ['GOOGLE_API_KEY'] = os.getenv("GOOGLE_API_KEY")
 os.environ['GROQ_API_KEY']= os.getenv('GROQ_API_KEY')
 
 # Initialize session state for chat history
